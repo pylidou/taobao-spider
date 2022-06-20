@@ -5,7 +5,12 @@ import json
 
 import requests
 import pandas as pd
-
+# __author__ = 'bianlidou'
+# date -> 2022/6/20
+# instruction
+"""
+爬取淘宝苹果手机的标题, 价格, 店铺名存入excel
+"""
 
 def request_data(page):
     cookies = {
